@@ -46,7 +46,7 @@ const Contact = () => {
                         <span className="contact_icon"><i className="fa fa-map-marker" aria-hidden="true"></i></span>
                         <div className="my_contact_info">
                             <h6>Location</h6>
-                            <p>Muradpur,Chittagong</p>
+                            <p>Rangunia,Chittagong</p>
                         </div>
                     </div >
                     <div className="con call_me col-12 col-sm-12 col-md-6 col-lg-4">
@@ -60,7 +60,7 @@ const Contact = () => {
                         <span className="contact_icon"><i className="fa fa-envelope" aria-hidden="true"></i></span>
                         <div className="my_contact_info">
                             <h6>Email</h6>
-                            <p>ataulhamidalvi@gmail.com</p>
+                            <p>hasnatulalam056@gmail.com</p>
                         </div>
                     </div>
 

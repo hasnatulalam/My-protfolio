@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="container nav-Bar">
                     <div className="nav_logo">
                         <p><Link className="logo" to="header" smooth={true} duration
-                            ={50} offset={0} spy={true} >A <span className="dot">.</span>Hamid</Link></p>
+                            ={50} offset={0} spy={true} > <span className="dot">.</span>Hasib</Link></p>
                     </div>
                     {windowSize <= 992 ? <button onClick={() => setmenuOpen(!menuOpen)} className="togglebtn">{!menuOpen ? <span><i class="fa fa-bars" aria-hidden="true"></i></span> :
                         <i class="fa fa-times" aria-hidden="true"></i>}</button>

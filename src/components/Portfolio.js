@@ -11,53 +11,61 @@ import p8 from '../images/p8.png';
 const Portfolio = () => {
     const projects = [
         {
-            name: "Go Home Pharmacy",
+            name: "Call Doctor",
             img: p2,
+            
             languageOrFramwork: "React ",
-            link: "https://github.com/Ataul-hamid/go-home-pharmachy-website"
+            link: "https://github.com/hasnatulalam/healthcare-related-website"
         },
         {
-            name: "Alvi Tourism",
-            img: p1,
+            name: "Burj Al Arab",
+          
+            img:p1,
+          
             languageOrFramwork: "NODE JS,EXPRESS JS , Mongodb",
-            link: "https://github.com/Ataul-hamid/alvi-tourism-client",
+            link: "https://github.com/hasnatulalam/tourism-or-delivery-website-client-side-",
 
         },
         {
-            name: "Smart Watch",
-            img: p3,
+            name: "Car Bd",
+           
+            img:p3,
             languageOrFramwork: "React, Node js, Express Js, Mongodb",
-            link: "https://github.com/Ataul-hamid/smart-watch-client"
+            link: "https://github.com/hasnatulalam/Car_Bd-client"
         },
         {
-            name: "Stud With Alvi",
+            name: "Best Teacher",
             img: p4,
+            
             languageOrFramwork: "React",
-            link: "https://github.com/Ataul-hamid/study-with-alvi"
+            link: "https://github.com/hasnatulalam/the-superhero-direction"
         },
         {
-            name: "Weather App",
+            name: "Mac Book Pro",
             img: p5,
+           
             languageOrFramwork: "HTML,CSS,JS",
-            link: "https://github.com/Ataul-hamid/weather-app"
+            link: "https://github.com/hasnatulalam/macbook"
         },
         {
-            name: "Best Programmer",
+            name: "Hero Honda",
             img: p6,
+           
             languageOrFramwork: "Html, Css JS",
-            link: "https://github.com/Ataul-hamid/best-programmer-website"
+            link: "https://github.com/hasnatulalam/book-archive"
         },
         {
-            name: "Shopping Cart ",
+            name: "Penguine Shop ",
             img: p8,
             languageOrFramwork: "html, css, javascript",
-            link: "https://github.com/Ataul-hamid/shopping-cart"
+            link: "https://github.com/hasnatulalam/penguine-bootstap"
         },
         {
             name: "Alvi's Restaurant",
             img: p7,
+            
             languageOrFramwork: "html, bootstrap, JS",
-            link: "https://github.com/Ataul-hamid/Alvi-s-restaurant"
+            link: "https://github.com/hasnatulalam/healthy-food-network"
         }
     ];
     return (

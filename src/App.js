@@ -7,10 +7,12 @@ import Service from './components/Service';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import TopscrollButton from './components/TopscrollButton';
+import Snowfall from 'react-snowfall'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './styles.css';
+
 
 
 function App() {
@@ -30,10 +32,12 @@ function App() {
     
     <div className="App">
       <Header/>
+      <Snowfall />
       <About/>
       <Skills/>
       <Service/>
-      <Portfolio/>
+      <Portfolio/> 
+    
       <Contact/>
       <Footer/>
       <TopscrollButton/>
