@@ -8,6 +8,8 @@ import p6 from '../images/p6.png';
 import p7 from '../images/p7.png';
 import p8 from '../images/p8.png';
 
+import { Carousel } from 'react-responsive-carousel';
+
 const Portfolio = () => {
     const projects = [
         {
@@ -21,7 +23,7 @@ const Portfolio = () => {
             name: "Burj Al Arab",
           
             img:p1,
-          
+           
             languageOrFramwork: "NODE JS,EXPRESS JS , Mongodb",
             link: "https://github.com/hasnatulalam/tourism-or-delivery-website-client-side-",
 
@@ -30,26 +32,27 @@ const Portfolio = () => {
             name: "Car Bd",
            
             img:p3,
+            
             languageOrFramwork: "React, Node js, Express Js, Mongodb",
             link: "https://github.com/hasnatulalam/Car_Bd-client"
         },
         {
             name: "Best Teacher",
             img: p4,
-            
+         
             languageOrFramwork: "React",
             link: "https://github.com/hasnatulalam/the-superhero-direction"
         },
         {
             name: "Mac Book Pro",
             img: p5,
-           
+            
             languageOrFramwork: "HTML,CSS,JS",
             link: "https://github.com/hasnatulalam/macbook"
         },
         {
             name: "Hero Honda",
-            img: p6,
+            img:p6,
            
             languageOrFramwork: "Html, Css JS",
             link: "https://github.com/hasnatulalam/book-archive"
@@ -57,13 +60,14 @@ const Portfolio = () => {
         {
             name: "Penguine Shop ",
             img: p8,
+          
             languageOrFramwork: "html, css, javascript",
             link: "https://github.com/hasnatulalam/penguine-bootstap"
         },
         {
             name: "Alvi's Restaurant",
             img: p7,
-            
+           
             languageOrFramwork: "html, bootstrap, JS",
             link: "https://github.com/hasnatulalam/healthy-food-network"
         }
